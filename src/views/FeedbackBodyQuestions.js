@@ -7,10 +7,7 @@ export const FeedbackBodyQuestions = () => {
   return (
     <>
       <div>
-        <div className="p-5">
-          {test.customerNme}
-        </div>
-        <div className="p-5 pb-4">
+        <div className="py-20 p-5 pb-4">
           {surveyQuestions.map(v => <li className="list-none"> {v.surveyQuestion} </li>)}
         </div>
       </div>
