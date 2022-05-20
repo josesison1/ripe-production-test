@@ -7,10 +7,7 @@ const App = () => {
   console.log(surveyQuestions)
   return (
     <>
-    <h1>Hello World!</h1>
-    {test.customerNme}
-    {surveyQuestions.map(v => v.surveyQuestion)}
-    <FeedbackCardContainer />
+      <FeedbackCardContainer />
     </>
   )
 }
