@@ -1,5 +1,6 @@
 import React from 'react'
 import { test } from '../testObject'
+import { FeedbackBodyBookmark } from './FeedbackBodyBookmark';
 
 const FeedbackCardHeader = () => {
   const timestamp = Date.now();
@@ -9,7 +10,9 @@ const FeedbackCardHeader = () => {
     <>
       <div className="flex justify-between">
         <span>{test.cardType}</span>
-        <span>{timeOnly}</span>
+        <div className='flex flex-col'><span>{timeOnly}</span>
+          <div className='flex justify-end pr-4'><FeedbackBodyBookmark /></div></div>
+
       </div>
     </>
   )

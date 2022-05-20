@@ -1,5 +1,7 @@
 import React from 'react'
 import { test } from '../testObject'
+import { FiPlusCircle } from 'react-icons/fi'
+import { GrFormClose } from 'react-icons/gr'
 
 const FeedbackFooterTags = () => {
   const { tags } = test
@@ -10,12 +12,15 @@ const FeedbackFooterTags = () => {
         <div className='flex mx-2'>
           {tags.map(v => {
             return (
-              <div className='border-2 border-orange-400 border-w mr-2 my-2 px-8 bg-white text-orange-400 rounded-lg'>{v}</div>
+              <div className='flex justify-between border-2 border-orange-400 border-w mr-2 text-sm p-2 px-2 bg-white text-orange-400 rounded-full'>{v}
+                <div className='mx-2'> <GrFormClose /> </div>
+              </div>
             )
           })}
         </div>
-        <div>
-          Add Tag
+        <div className=''>
+          add tag
+          <FiPlusCircle />
         </div>
 
       </div>

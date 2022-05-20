@@ -24,7 +24,7 @@ const test = {
             surveyQuestion: 'Any additional feedback?'
         }
     ],
-    tags: ['tag1', 'tag2', 'tag3', 'tag4'],
+    tags: ['TagOne', 'TagTwo', 'TagThree', 'TagFour'],
     needsAttention: true,
     bookmarked: false
 }
