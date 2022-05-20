@@ -1,6 +1,7 @@
 import React from 'react'
 import FeedbackCardHeader from './FeedbackCardHeader'
 import FeedbackCardBody from './FeedbackCardBody'
+import FeedbackCardFooter from './FeedbackCardFooter'
 
 const FeedbackCardContainer = () => {
   return (
@@ -9,7 +10,7 @@ const FeedbackCardContainer = () => {
         <div className="px-6 py-4 w-full">
           <div className="font-bold text-xl mb-2 w-full">
             <FeedbackCardHeader />
-            <div className="border-2 border-orange-400">
+            <div className="mt-10 border-2 border-orange-400">
               <FeedbackCardBody />
             </div>
           </div>

@@ -7,7 +7,7 @@ const FeedbackBodyAnswers = () => {
   return (
     <>
       <div>
-        <div className="p-5 pb-4">
+        <div className="p-5 pb-4 pt-20">
           {surveyQuestions.map(v => <li className="list-none"> {v.surveyQuestionAnswer} </li>)}
         </div>
       </div>
