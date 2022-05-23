@@ -11,7 +11,7 @@ const FeedbackFooterTags = () => {
   const submitTag = (e) => {
     if(e.key === 'Enter') {
       setAddTag([...addTag, e.target.value])
-      e.target.value = ''
+      e.target.value = '' 
     } 
   }
 
