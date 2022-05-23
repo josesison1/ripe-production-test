@@ -4,7 +4,6 @@ import FeedbackCardContainer from './components/FeedbackCardContainer'
 
 const App = () => {
   const { surveyQuestions } = test
-  console.log(surveyQuestions)
   return (
     <>
       <FeedbackCardContainer />
