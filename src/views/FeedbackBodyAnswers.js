@@ -7,8 +7,8 @@ const FeedbackBodyAnswers = () => {
   return (
     <>
       <div>
-        <div className="p-5 pb-4 pt-20">
-          {surveyQuestions.map(v => <li className="list-none"> {v.surveyQuestionAnswer} </li>)}
+        <div className="py-10 p-5 pb-4">
+          {surveyQuestions.map(v => <li className="list-none p-2"> {v.surveyQuestionAnswer} </li>)}
         </div>
       </div>
     </>

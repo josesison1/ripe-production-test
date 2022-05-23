@@ -7,8 +7,8 @@ export const FeedbackBodyQuestions = () => {
   return (
     <>
       <div>
-        <div className="py-20 p-5 pb-4">
-          {surveyQuestions.map(v => <li className="list-none"> {v.surveyQuestion} </li>)}
+        <div className="py-10 p-5 pb-4">
+          {surveyQuestions.map((v, index) => <li key={index} className="list-none p-2"> {v.surveyQuestion} </li>)}
         </div>
       </div>
     </>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import { FeedbackBodyQuestions } from '../views/FeedbackBodyQuestions'
 import FeedbackBodyAnswers from '../views/FeedbackBodyAnswers'
 import FeedbackCardFooter from './FeedbackCardFooter'
@@ -6,9 +7,10 @@ import { FeedbackBodyBookmark } from './FeedbackBodyBookmark'
 import { test } from '../testObject'
 
 const FeedbackCardBody = () => {
+
   return (
     <>
-      <div className='pb-10 bg-white p-5'>
+      <div className='pb-10 bg-white p-5 rounded-lg'>
         <div className='z-20'>
           <FeedbackBodyBookmark />
         </div>
