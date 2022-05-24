@@ -3,7 +3,7 @@ import { test } from '../testObject'
 
 const FeedbackBodyAnswers = () => {
   const { surveyQuestions } = test
-  console.log(surveyQuestions)
+  // console.log(surveyQuestions)
   return (
     <>
       <div>
