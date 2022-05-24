@@ -18,12 +18,12 @@ const FeedbackFooterTags = () => {
   console.log(tagValue);
 
   const addTags = () => {
-    const newValue = setTagValue;
+    const newValue = setTagValue; 
     setAddTag(newValue.push())
   }
 
   // console.log(test.tags);
-  
+
   return (
     <>
       <div className='flex justify-between flex-wrap'>
