@@ -11,7 +11,6 @@ const FeedbackCardHeader = () => {
       <div className="flex justify-between">
         <span>{test.cardType}</span>
         <div className='flex flex-col'><span>{timeOnly}</span>
-          <div className='flex justify-end pr-4'><FeedbackBodyBookmark /></div>
           </div>
       </div>
     </>

@@ -6,18 +6,23 @@ import { useState } from 'react'
 
 const FeedbackFooterTags = () => {
   const { tags } = test
-  const [addTag, setAddTag] = useState([tags])
+  const [tagValue, setTagValue] = useState('');
+  const [addTag, setAddTag] = useState(test.tags)
 
-  const submitTag = (e) => {
-    if(e.key === 'Enter') {
-      setAddTag([...addTag, e.target.value])
-      e.target.value = '' 
-    } 
+  // const saveTagValue = (e) => {
+  //   if(e.key === 'Enter') {
+  //     setTagValue[e.target.tagValue] = e.target.value
+  //     e.target.value = '' 
+  //   } 
+  // }
+  console.log(tagValue);
+
+  const addTags = () => {
+    const newValue = setTagValue; 
+    setAddTag(newValue.push())
   }
 
-  const removeTag = (index) => {
-    setAddTag(addTag.filter((v, i) => i !== index))
-  }
+  // console.log(test.tags);
 
   return (
     <>
@@ -26,15 +31,18 @@ const FeedbackFooterTags = () => {
           {tags.map(v => {
             return (
               <div className='flex justify-between border-2 border-orange-400 border-w mr-2 text-sm p-2 px-2 bg-white text-orange-400 rounded-full'>{v}
-                <div className='mx-2'> <GrFormClose onClick={removeTag}/> </div>
+                <div className='mx-2'> <GrFormClose/> </div>
               </div>
             )
           })}
         </div>
         <div>
-          <input className='border-2 border-orange-400 rounded-xl text-md' type='text' placeholder='Add a tag'></input>
+          <input className='border-2 border-orange-400 rounded-xl text-md' 
+          type='text' 
+          placeholder='Add a tag'
+          onChange={e => setTagValue(e.target.value)} />
         </div>
-        <div className='cursor-pointer' onClick={submitTag}>
+        <div className='cursor-pointer' onClick={addTags}>
           <FiPlusCircle />
         </div>
       </div>
