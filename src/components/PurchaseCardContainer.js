@@ -1,6 +1,7 @@
 import React from 'react'
 import PurchaseCardHeader from './PurchaseCardHeader'
 import PurchaseCardBody from './PurchaseCardBody'
+import PurchaseCardFooter from './PurchaseCardFooter'
 
 const PurchaseCardContainer = () => {
   return (

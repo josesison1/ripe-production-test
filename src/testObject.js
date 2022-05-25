@@ -37,7 +37,7 @@ const test = {
             unitPrice: [50, 50, 40],
             totalItemPrice: [50, 150, 80],
             orderNumber: 1234567890,
-            paymentMethod: "credit card",
+            paymentMethod: "Credit Card",
             subtotal: 280,
             deliveryFee: "Free",
             discounts: 0,
