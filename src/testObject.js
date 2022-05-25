@@ -26,7 +26,28 @@ const test = {
     ],
     tags: ['tagone', 'tagtwo'],
     needsAttention: true,
-    bookmarked: false
+    bookmarked: false,
+
+    purchaseFreqNum: '6th Purchase',
+    cardType2: 'Purchase',
+    purchaseInputs: [
+        {
+            quantities: [1, 3, 2],
+            productType: ['sativa', 'indica', 'hybrid'],
+            unitPrice: [50, 50, 40],
+            totalItemPrice: [50, 150, 80],
+            orderNumber: 1234567890,
+            paymentMethod: "credit card",
+            subtotal: 280,
+            deliveryFee: "Free",
+            discounts: 0,
+            cannabisTax: 8.50,
+            salesTax: 15.32,
+            orderTotal: 303.82
+
+        }
+    ]
+
 }
 
 export { test }
