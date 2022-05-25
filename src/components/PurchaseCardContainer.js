@@ -11,7 +11,7 @@ const PurchaseCardContainer = () => {
             <PurchaseCardHeader />
             <div className="mt-10 border-2 border-green-400 rounded-lg">
               <PurchaseCardBody />
-            </div>
+            </div> 
           </div>
         </div>
       </div>
