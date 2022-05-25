@@ -1,7 +1,7 @@
 import React from 'react'
 import { test } from '../testObject'
 
-const PurchaseQty = () => {
+const PurchaseBodyQty = () => {
   const { purchaseInputs } = test
   return (
     <>
@@ -22,4 +22,4 @@ const PurchaseQty = () => {
   )
 }
 
-export default PurchaseQty
+export default PurchaseBodyQty
