@@ -7,10 +7,11 @@ const PurchaseCardHeader = () => {
   // console.log(timestamp)
   return (
     <>
-      <div className="flex justify-between">
+      <div className="flex justify-between ">
         <span>{test.cardType2}</span>
-        <div>{test.customerNme}</div>
-        <div className='flex flex-col'><span>{timeOnly}</span>
+        <div className='flex flex-row space-x-2 justify-between text-sm'>
+          <span>{test.customerNme}</span>
+          <span>{timeOnly}</span>
         </div>
       </div>
     </>

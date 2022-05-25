@@ -32,7 +32,7 @@ const test = {
     cardType2: 'Purchase',
     purchaseInputs: [
         {
-            quantities: [1, 3, 2],
+            quantities: [1,3,2],
             productType: ['sativa', 'indica', 'hybrid'],
             unitPrice: [50, 50, 40],
             totalItemPrice: [50, 150, 80],
@@ -40,7 +40,7 @@ const test = {
             paymentMethod: "Credit Card",
             subtotal: 280,
             deliveryFee: "Free",
-            discounts: 0,
+            discounts: 0.00,
             cannabisTax: 8.50,
             salesTax: 15.32,
             orderTotal: 303.82
