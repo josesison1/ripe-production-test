@@ -4,11 +4,15 @@ import { test } from '../testObject'
 const PurchaseFooterOrderInfo = () => {
   const { orderNumber, paymentMethod } = test.purchaseInputs[0]
   return (
-    <div>
-      Order Number
-      <div>{orderNumber}</div>
-      Payment Method
-      <div>{paymentMethod}</div>
+    <div className='flex flex-col justify-around'>
+      <div className='flex flex-col'>
+        <span>Order Number</span>
+        <span>{orderNumber}</span>
+      </div>
+      <div className='flex flex-col'>
+        <span>Payment Method</span>
+        <span>{paymentMethod}</span>
+      </div>
     </div>
   )
 }

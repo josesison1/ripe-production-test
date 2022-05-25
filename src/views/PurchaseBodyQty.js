@@ -5,13 +5,13 @@ const PurchaseBodyQty = () => {
   const { purchaseInputs } = test
   return (
     <>
-      <div className='flex flex-col'>
-        <h1>Quantities</h1>
+      <div className=''>
+        <h1>Qty.</h1>
         <div className='flex flex-col border-2 border-red-300'>
           {
             purchaseInputs.map((v, index) => {
               return (
-                <div key={index}>{v.quantities}
+                <div className='justify-between' key={index} > {v.quantities}
                 </div>
               )
             })

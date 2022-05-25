@@ -1,7 +1,6 @@
 import React from 'react'
 import PurchaseCardHeader from './PurchaseCardHeader'
 import PurchaseCardBody from './PurchaseCardBody'
-import PurchaseCardFooter from './PurchaseCardFooter'
 
 const PurchaseCardContainer = () => {
   return (
@@ -12,7 +11,7 @@ const PurchaseCardContainer = () => {
             <PurchaseCardHeader />
             <div className="mt-10 border-2 border-green-400 rounded-lg">
               <PurchaseCardBody />
-            </div>
+            </div> 
           </div>
         </div>
       </div>
