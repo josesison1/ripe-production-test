@@ -1,6 +1,6 @@
 import React from "react";
-import PurchaseFooterAllTotal from "../views/PurchaseFooterAllTotal";
-import PurchaseFooterOrderInfo from "../views/PurchaseFooterOrderInfo";
+import PurchaseFooterAllTotal from "../PurchaseCardFooter/PurchaseFooterAllTotal";
+import PurchaseFooterOrderInfo from "../PurchaseCardFooter/PurchaseFooterOrderInfo";
 
 const PurchaseCardFooter = () => {
   return (
