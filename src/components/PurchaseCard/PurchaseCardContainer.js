@@ -1,6 +1,6 @@
-import React from 'react'
-import PurchaseCardHeader from './PurchaseCardHeader'
-import PurchaseCardBody from './PurchaseCardBody'
+import React from "react";
+import PurchaseCardHeader from "../PurchaseCard/PurchaseCardHeader";
+import PurchaseCardBody from "../PurchaseCard/PurchaseCardBody/PurchaseCardBody";
 
 const PurchaseCardContainer = () => {
   return (
@@ -11,12 +11,12 @@ const PurchaseCardContainer = () => {
             <PurchaseCardHeader />
             <div className="mt-10 border-2 border-green-400 rounded-lg">
               <PurchaseCardBody />
-            </div> 
+            </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PurchaseCardContainer
+export default PurchaseCardContainer;

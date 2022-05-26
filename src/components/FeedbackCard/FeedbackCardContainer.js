@@ -1,7 +1,6 @@
-import React from 'react'
-import FeedbackCardHeader from './FeedbackCardHeader'
-import FeedbackCardBody from './FeedbackCardBody'
-import FeedbackCardFooter from './FeedbackCardFooter'
+import React from "react";
+import FeedbackCardHeader from "../FeedbackCard/FeedbackCardHeader";
+import FeedbackCardBody from "../FeedbackCard/FeedbackCardBody/FeedbackCardBody";
 
 const FeedbackCardContainer = () => {
   return (
@@ -17,7 +16,7 @@ const FeedbackCardContainer = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default FeedbackCardContainer
+export default FeedbackCardContainer;
