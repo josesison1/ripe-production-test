@@ -1,12 +1,13 @@
 import React from "react";
 
 const PurchaseBodyQty = ({ test }) => {
+  const { purchaseInputs } = test;
   return (
     <>
       <div className="">
         <h1>Qty.</h1>
         <div className="flex flex-col border-2 border-red-300">
-          {test.purchaseInputs.map((v, index) => {
+          {purchaseInputs.map((v, index) => {
             return (
               <div className="justify-between" key={index}>
                 {" "}
