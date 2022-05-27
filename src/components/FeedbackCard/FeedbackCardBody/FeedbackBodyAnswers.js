@@ -1,14 +1,15 @@
 import React from "react";
 
-const FeedbackBodyAnswers = () => {
-  const { surveyQuestions } = this.props.test;
-  // console.log(surveyQuestions)
+const FeedbackBodyAnswers = ({ test }) => {
   return (
     <>
       <div>
         <div className="py-10 p-5 pb-4">
-          {surveyQuestions.map((v) => (
-            <li className="list-none p-2"> {v.surveyQuestionAnswer} </li>
+          {test.surveyQuestions.map((v, index) => (
+            <li key={index} className="list-none p-2">
+              {" "}
+              {v.surveyQuestionAnswer}{" "}
+            </li>
           ))}
         </div>
       </div>

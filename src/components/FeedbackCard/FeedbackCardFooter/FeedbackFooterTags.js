@@ -3,9 +3,9 @@ import { FiPlusCircle } from "react-icons/fi";
 import { GrFormClose } from "react-icons/gr";
 import { useState } from "react";
 
-const FeedbackFooterTags = () => {
+const FeedbackFooterTags = ({ test }) => {
   const [tagValue, setTagValue] = useState("");
-  const [addTag, setAddTag] = useState(this.props.test.tags);
+  const [addTag, setAddTag] = useState(test.tags);
   // const { tags } = addTag
 
   const addTags = () => {

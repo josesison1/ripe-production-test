@@ -1,7 +1,7 @@
 import React from "react";
 
-const PurchaseFooterOrderInfo = () => {
-  const { orderNumber, paymentMethod } = this.props.test.purchaseInputs[0];
+const PurchaseFooterOrderInfo = ({ test }) => {
+  const { orderNumber, paymentMethod } = test.purchaseInputs[0];
   return (
     <div className="flex flex-col justify-around">
       <div className="flex flex-col">
