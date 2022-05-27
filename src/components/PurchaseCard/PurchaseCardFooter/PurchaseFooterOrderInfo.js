@@ -1,7 +1,7 @@
 import React from "react";
 
 const PurchaseFooterOrderInfo = ({ test }) => {
-  const { orderNumber, paymentMethod } = test.purchaseInputs[0];
+  const { orderNumber, paymentMethod } = test.purchaseInputs[3];
   return (
     <div className="flex flex-col justify-around">
       <div className="flex flex-col">

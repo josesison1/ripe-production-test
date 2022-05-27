@@ -5,7 +5,7 @@ const PurchaseBodyItemTotal = ({ test }) => {
   return (
     <div className="flex flex-col">
       <h1>Total</h1>
-      <div className="flex flex-col border-2 border-red-300">
+      <div className="flex flex-col">
         {purchaseInputs.map((v, index) => {
           return <div key={index}>{v.totalItemPrice}</div>;
         })}
