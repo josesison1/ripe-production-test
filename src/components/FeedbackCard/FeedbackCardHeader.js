@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
-const FeedbackCardHeader = (props) => {
-  const [cardType, setCardType] = useState(props);
-
+const FeedbackCardHeader = ({ test }) => {
   const timestamp = Date.now();
   const timeOnly = new Intl.DateTimeFormat("en-US", {
     hour: "2-digit",
@@ -13,7 +11,7 @@ const FeedbackCardHeader = (props) => {
   return (
     <>
       <div className="flex justify-between">
-        <span>{props.test.cardType}</span>
+        <span>{test.cardType}</span>
         <div className="flex flex-col">
           <span>{timeOnly}</span>
         </div>

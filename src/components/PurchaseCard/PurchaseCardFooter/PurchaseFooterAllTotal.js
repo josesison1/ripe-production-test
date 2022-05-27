@@ -1,6 +1,6 @@
 import React from "react";
 
-const PurchaseFooterAllTotal = () => {
+const PurchaseFooterAllTotal = ({ test }) => {
   const {
     subtotal,
     discounts,
@@ -8,7 +8,7 @@ const PurchaseFooterAllTotal = () => {
     cannabisTax,
     salesTax,
     orderTotal,
-  } = this.props.test.purchaseInputs[0];
+  } = test.purchaseInputs[0];
   return (
     <div className="w-52 flex flex-col">
       <div className="flex flex-row justify-between mb-2">

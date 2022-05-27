@@ -2,12 +2,12 @@ import React from "react";
 import PurchaseFooterAllTotal from "../PurchaseCardFooter/PurchaseFooterAllTotal";
 import PurchaseFooterOrderInfo from "../PurchaseCardFooter/PurchaseFooterOrderInfo";
 
-const PurchaseCardFooter = () => {
+const PurchaseCardFooter = ({ test }) => {
   return (
     <>
       <div className="flex flex-row justify-between bg-white">
-        <PurchaseFooterOrderInfo />
-        <PurchaseFooterAllTotal />
+        <PurchaseFooterOrderInfo test={test} />
+        <PurchaseFooterAllTotal test={test} />
       </div>
     </>
   );

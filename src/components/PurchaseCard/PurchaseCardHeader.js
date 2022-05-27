@@ -1,6 +1,6 @@
 import React from "react";
 
-const PurchaseCardHeader = () => {
+const PurchaseCardHeader = ({ test }) => {
   const timestamp = Date.now();
   const timeOnly = new Intl.DateTimeFormat("en-US", {
     hour: "2-digit",
@@ -11,9 +11,9 @@ const PurchaseCardHeader = () => {
   return (
     <>
       <div className="flex justify-between ">
-        <span>{this.props.test.cardType2}</span>
+        <span>{test.cardType2}</span>
         <div className="flex flex-row space-x-2 justify-between text-sm">
-          <span>{this.props.test.customerNme}</span>
+          <span>{test.customerNme}</span>
           <span>{timeOnly}</span>
         </div>
       </div>
