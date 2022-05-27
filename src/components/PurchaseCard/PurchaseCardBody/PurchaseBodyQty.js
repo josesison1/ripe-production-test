@@ -6,10 +6,10 @@ const PurchaseBodyQty = ({ test }) => {
     <>
       <div className="">
         <h1>Qty.</h1>
-        <div className="flex flex-col border-2 border-red-300">
+        <div className="flex flex-col">
           {purchaseInputs.map((v, index) => {
             return (
-              <div className="justify-between" key={index}>
+              <div className="flex justify-around" key={index}>
                 {" "}
                 {v.quantities}
               </div>

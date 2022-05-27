@@ -8,7 +8,7 @@ const PurchaseFooterAllTotal = ({ test }) => {
     cannabisTax,
     salesTax,
     orderTotal,
-  } = test.purchaseInputs[0];
+  } = test.purchaseInputs[3];
   return (
     <div className="w-52 flex flex-col">
       <div className="flex flex-row justify-between mb-2">

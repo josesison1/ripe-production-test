@@ -24,7 +24,7 @@ const SingleView = () => {
       {loading ? (
         <div>Loading</div>
       ) : (
-        <div>
+        <div className='space-y-10'>
           <FeedbackCardContainer test={data[0]} />
           <PurchaseCardContainer test={data[1]} />
         </div>

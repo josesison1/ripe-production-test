@@ -31,13 +31,31 @@ const test = [
   },
   {
     purchaseFreqNum: "6th Purchase",
+    customerNme: "Keelan Smith-Jones",
     cardType2: "Purchase",
     purchaseInputs: [
       {
-        quantities: [1, 3, 2],
-        productType: ["sativa", "indica", "hybrid"],
-        unitPrice: [50, 50, 40],
-        totalItemPrice: [50, 150, 80],
+        quantities: 1,
+        productType: "sativa",
+        unitPrice: 50,
+        totalItemPrice: 50,
+
+      },
+       {
+        quantities: 3,
+        productType: "indica",
+        unitPrice: 50,
+        totalItemPrice: 150,
+
+      }, 
+      {
+        quantities: 2,
+        productType: "hybrid",
+        unitPrice: 40,
+        totalItemPrice: 80,
+
+      },
+      {
         orderNumber: 1234567890,
         paymentMethod: "Credit Card",
         subtotal: 280,
@@ -46,7 +64,7 @@ const test = [
         cannabisTax: 8.5,
         salesTax: 15.32,
         orderTotal: 303.82,
-      },
+        },
     ],
   }
 ];

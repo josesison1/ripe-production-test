@@ -7,7 +7,6 @@ const PurchaseCardHeader = ({ test }) => {
     minute: "2-digit",
     second: "2-digit",
   }).format(timestamp);
-  // console.log(timestamp)
   return (
     <>
       <div className="flex justify-between ">
