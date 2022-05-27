@@ -4,12 +4,12 @@ const PurchaseBodyQty = ({ test }) => {
   const { purchaseInputs } = test;
   return (
     <>
-      <div className="">
+      <div className="space-y-2">
         <h1>Qty.</h1>
-        <div className="flex flex-col">
+        <div className="text-center space-y-4">
           {purchaseInputs.map((v, index) => {
             return (
-              <div className="flex justify-around" key={index}>
+              <div className="" key={index}>
                 {" "}
                 {v.quantities}
               </div>

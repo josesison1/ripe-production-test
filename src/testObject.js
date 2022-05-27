@@ -36,24 +36,21 @@ const test = [
     purchaseInputs: [
       {
         quantities: 1,
-        productType: "sativa",
+        productType: "Sativa",
         unitPrice: 50,
         totalItemPrice: 50,
-
       },
        {
         quantities: 3,
-        productType: "indica",
+        productType: "Indica",
         unitPrice: 50,
         totalItemPrice: 150,
-
       }, 
       {
         quantities: 2,
-        productType: "hybrid",
+        productType: "Hybrid",
         unitPrice: 40,
         totalItemPrice: 80,
-
       },
       {
         orderNumber: 1234567890,
